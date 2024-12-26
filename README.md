@@ -26,6 +26,10 @@ You can install the `ps-node` package using npm:
 npm install ps-node
 ```
 
+### Bash
+
+- Bash shell
+
 ## Usage
 
 ### Python
@@ -54,6 +58,20 @@ python gamebar.py
 
 ```sh
 node gamebar.js
+```
+
+### Bash
+
+1. Clone this repository or download the script.
+2. Open the script file `gamebar.sh`.
+3. Modify the `TARGET_PROCESS` variable to the name of the process you want to monitor and terminate. For example:
+    ```bash
+    TARGET_PROCESS="your game name"
+    ```
+4. Run the script:
+
+```sh
+bash gamebar.sh
 ```
 
 ## Logging
